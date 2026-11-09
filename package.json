@@ -1,0 +1,17 @@
+{
+  "name": "plog",
+  "version": "1.0.0",
+  "description": "强化学习、模型推理 Infra 与论文阅读的个人知识库",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "build": "vitepress build docs"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.21",
+    "markdown-it-mathjax3": "^4.0.0"
+  }
+}

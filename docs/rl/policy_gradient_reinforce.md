@@ -6,7 +6,7 @@ tags:
   - 策略梯度
   - REINFORCE
 created: "2026-11-02"
-updated: "2026-11-10"
+updated: "2026-11-11"
 ---
 
 # 策略梯度与 REINFORCE
@@ -429,3 +429,10 @@ $$
 连续情形应将状态点概率改为状态分布测度；有密度时可使用密度，并将状态、动作求和换成相应积分。
 
 若以归一化回报 $J(\theta)/Z$ 为目标，其梯度便没有前置系数 $Z$。无限时域且 $0<\gamma<1$ 时，$Z=1/(1-\gamma)$，对应 [Harvard 讲义中的状态访问分布形式](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)。
+
+## 参考文献
+
+1. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)。轨迹概率推导、Reward-to-go、动作价值与采样损失的入门说明。
+2. Hank Yang. [Policy Gradient Methods — Optimal Control and Reinforcement Learning](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)。动作价值与状态访问分布形式的讲义参考。
+3. Chris Nota, Philip S. Thomas. [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073). arXiv:1906.07073。讨论折扣目标与省略外层时间权重的更新之间的区别。
+4. Hugging Face Deep RL Course. [Unit4 policy gradient errors · Issue #285](https://github.com/huggingface/deep-rl-class/issues/285)。关于课程推导与实现差异的补充讨论。

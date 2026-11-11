@@ -432,7 +432,7 @@ $$
 
 ## 参考资料
 
-1. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)。轨迹概率推导、Reward-to-go、动作价值与采样损失的入门说明。
-2. Hank Yang. [Policy Gradient Methods — Optimal Control and Reinforcement Learning](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)。动作价值与状态访问分布形式的讲义参考。
-3. Chris Nota, Philip S. Thomas. [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073). arXiv:1906.07073。讨论折扣目标与省略外层时间权重的更新之间的区别。
-4. Hugging Face Deep RL Course. [Unit4 policy gradient errors · Issue #285](https://github.com/huggingface/deep-rl-class/issues/285)。关于课程推导与实现差异的补充讨论。
+1. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)（在线教程）。
+2. Hank Yang. [Policy Gradient Methods — Optimal Control and Reinforcement Learning](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)（在线讲义）。
+3. Chris Nota, Philip S. Thomas. [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073). arXiv:1906.07073（论文）。
+4. Hugging Face Deep RL Course. [Unit4 policy gradient errors](https://github.com/huggingface/deep-rl-class/issues/285)（GitHub Issue #285）。

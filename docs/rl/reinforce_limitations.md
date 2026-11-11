@@ -164,6 +164,6 @@ $$
 
 ## 参考资料
 
-- [ApX：基本策略梯度面临的挑战](https://apxml.com/zh/courses/advanced-reinforcement-learning/chapter-3-advanced-policy-gradients-actor-critic/policy-gradient-challenges)：高方差、样本效率与信用分配的问题组织。
-- [Spinning Up：策略优化入门](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html#dont-let-the-past-distract-you)：Reward-to-go、Baseline 与动作价值的关系。
-- [Spinning Up：Vanilla Policy Gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html)：on-policy 采样与策略更新流程。
+1. ApX. [基本策略梯度面临的挑战](https://apxml.com/zh/courses/advanced-reinforcement-learning/chapter-3-advanced-policy-gradients-actor-critic/policy-gradient-challenges)（在线教程）。
+2. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html#dont-let-the-past-distract-you)（在线教程）。
+3. OpenAI Spinning Up. [Vanilla Policy Gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html)（算法文档）。

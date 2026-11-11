@@ -432,7 +432,7 @@ $$
 
 ## 参考资料
 
-1. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)（在线教程）。
-2. Hank Yang. [Policy Gradient Methods — Optimal Control and Reinforcement Learning](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)（在线讲义）。
-3. Chris Nota, Philip S. Thomas. [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073). arXiv:1906.07073（论文）。
-4. Hugging Face Deep RL Course. [Unit4 policy gradient errors](https://github.com/huggingface/deep-rl-class/issues/285)（GitHub Issue #285）。
+1. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)。
+2. Hank Yang. [Policy Gradient Methods — Optimal Control and Reinforcement Learning](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)。
+3. Chris Nota, Philip S. Thomas. [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073). arXiv:1906.07073。
+4. Hugging Face Deep RL Course, GitHub Issue #285. [Unit4 policy gradient errors](https://github.com/huggingface/deep-rl-class/issues/285)。

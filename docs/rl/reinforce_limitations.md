@@ -164,6 +164,6 @@ $$
 
 ## 参考资料
 
-1. ApX. [基本策略梯度面临的挑战](https://apxml.com/zh/courses/advanced-reinforcement-learning/chapter-3-advanced-policy-gradients-actor-critic/policy-gradient-challenges)（在线教程）。
-2. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html#dont-let-the-past-distract-you)（在线教程）。
-3. OpenAI Spinning Up. [Vanilla Policy Gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html)（算法文档）。
+1. ApX. [基本策略梯度面临的挑战](https://apxml.com/zh/courses/advanced-reinforcement-learning/chapter-3-advanced-policy-gradients-actor-critic/policy-gradient-challenges)。
+2. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html#dont-let-the-past-distract-you)。
+3. OpenAI Spinning Up. [Vanilla Policy Gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html)。

@@ -430,7 +430,7 @@ $$
 
 若以归一化回报 $J(\theta)/Z$ 为目标，其梯度便没有前置系数 $Z$。无限时域且 $0<\gamma<1$ 时，$Z=1/(1-\gamma)$，对应 [Harvard 讲义中的状态访问分布形式](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)。
 
-## 参考文献
+## 参考资料
 
 1. OpenAI Spinning Up. [Part 3: Intro to Policy Optimization](https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)。轨迹概率推导、Reward-to-go、动作价值与采样损失的入门说明。
 2. Hank Yang. [Policy Gradient Methods — Optimal Control and Reinforcement Learning](https://hankyang.seas.harvard.edu/OptimalControlReinforcementLearning/policy-gradient.html#the-policy-gradient-lemma)。动作价值与状态访问分布形式的讲义参考。

@@ -1,18 +1,12 @@
-import { readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitepress'
 import equationNumbers from './equations.ts'
 
-const sourceDirectory = fileURLToPath(new URL('../', import.meta.url))
-const displayedPages = new Set(['index.md', 'rl/policy_gradient_reinforce.md'])
-
 export default defineConfig({
   lang: 'zh-CN',
   title: 'plog · 学习手记',
-  description: '强化学习学习笔记：策略梯度与 REINFORCE。',
+  description: '强化学习、模型推理 Infra 与论文阅读的个人知识库。',
   outDir: fileURLToPath(new URL('../../dist', import.meta.url)),
-  srcExclude: readdirSync(sourceDirectory, { recursive: true })
-    .filter(file => file.endsWith('.md') && !displayedPages.has(file)),
   base: '/plog/',
   cleanUrls: false,
   markdown: {

@@ -325,3 +325,17 @@ button { cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* Reading order shared by the series index and chapter pages. */
+.series-nav > a { align-items: flex-start; gap: 9px; min-height: 0; padding-block: 8px; font-size: 10px; line-height: 1.75; }
+.series-nav > a > small { min-width: 16px; margin: 1px 0 0; font-size: 8px; }
+.series-nav > a > span { min-width: 0; }
+.series-navigation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 35px; padding-top: 20px; border-top: 1px solid var(--kb-line); }
+.series-navigation > a { display: flex; flex-direction: column; gap: 6px; color: var(--kb-green); font-size: 12px; line-height: 1.8; }
+.series-navigation > a > span { color: var(--kb-muted); font-size: 9px; }
+.series-navigation > a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.series-navigation > a.next-chapter { grid-column: 2; text-align: right; }
+@media (max-width: 600px) {
+  .series-navigation { gap: 12px; }
+  .series-navigation > a { font-size: 11px; }
+}
